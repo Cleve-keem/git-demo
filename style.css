@@ -29,6 +29,7 @@ body{
 .wrapper{
     width: 450px;
     display: flex;
+    -webkit-box-flex: flex;
     flex-direction: column;
     margin: 50px auto;
     border-radius: 20px;
