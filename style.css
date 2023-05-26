@@ -133,7 +133,7 @@ button:hover{
     color: var(--dark-blue);
 }
 /* mobile design */
-@media screen and (max-width: 375px){
+@media screen and (max-width: 450px){
     body{
         background-image: url(images/pattern-background-mobile.svg);
         background-size: contain;
@@ -141,7 +141,8 @@ button:hover{
         background-color: var(--pale-blue);
     }
     .wrapper{
-        max-width: 340px;
+        width: 80%;
+        font-size: 14px;
     }
     .white-container h1{
         font-size: 20px;
