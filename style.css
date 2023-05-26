@@ -134,6 +134,12 @@ button:hover{
 }
 /* mobile design */
 @media screen and (max-width: 375px){
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: var(--pale-blue);
+    }
     .wrapper{
         max-width: 340px;
     }
