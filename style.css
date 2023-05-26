@@ -92,6 +92,7 @@ p{
     font-size: 14px;
     font-weight: 700;
     color: var(--bright-blue);
+    transition: all 0.5s ease-in-out;
     
 }
 .plan-section a:hover{
@@ -111,6 +112,8 @@ button{
     background-color: var(--bright-blue);
     color: var(--off-white);
     opacity: 0.9;
+    transition: all 0.5s ease-in-out;
+
 }
 button:hover{
     cursor: pointer;
@@ -120,6 +123,36 @@ button:hover{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: var(--bright-blue);
     
 }
-
+.btn-container a:hover{
+    cursor: pointer;
+    color: var(--dark-blue);
+}
+/* mobile design */
+@media screen and (max-width: 375px){
+    .wrapper{
+        max-width: 340px;
+    }
+    .white-container h1{
+        font-size: 20px;
+    }
+    .white-container p{
+        font-size: 14px;
+    }
+    .white-container .plan-section{
+        padding: 5px 15px;
+    }
+    .white-container .plan-section .plan-description img{
+        width: 35px;
+        margin: 0;
+    }
+    .white-container .plan-section .plan-description .plan-contest h3{
+        font-size: 14px;
+    }
+    .white-container .plan-section .plan-description .plan-contest span{
+        font-size: 14px;
+    }
+}
